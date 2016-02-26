@@ -11,7 +11,7 @@ var SideNavController = function (view, model) {
 
     view.container.on('click', function (e) {
         if ($(e.target).hasClass('deleteIcon')) {
-            model.removeDishFromMenu(e.target.id);
+            model.removeDishFromMenu (e.target.id);
         }
     });
 

@@ -8,9 +8,9 @@ $(function() {
 	var dinnerOverviewView = new DinnerOverviewView($("#dinnerOverviewView"), model);
 	var prepareDishView = new PrepareDishView($("#dinnerPreparationView"),model);
 
-	var sideNavController = new SideNavController(sideNavView, model);
+	/*var sideNavController = new SideNavController(sideNavView, model);
     var selectDishController = new SelectDishController(selectDishView, model);
-    var detailController = new DetailController(detailView, model);
+    var detailController = new DetailController(detailView, model);*/
 
 });
 

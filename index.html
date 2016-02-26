@@ -75,7 +75,7 @@
                     
                     <div class="col-sm-8">
                         <form>
-                            <select name="courseType" id="courseType">
+                            <select name="courseType" id="courseType" onChange="changevalue()">
                                 <option value="Starter">Starter</option>
                                 <option value="Maindish">Main dish</option>
                                 <option value="Dessert">Dessert</option>
@@ -86,8 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-9" id="selectDishView">
-          
+        <div class= "col-md-9" id="selectDishView">         
               <h4>Dishes list</h4>
               <div class="row" id="allDishes"></div>      
         </div>
@@ -209,13 +208,13 @@
     <script src="./model/dinnerModel.js"></script>
     <script src="./view/interaction.js"></script>
     <script src="./view/detailView.js"></script>
-    <script src="./view/detailController.js"></script>
+    <!-- <script src="./view/detailController.js"></script>-->
     <script src="./view/exampleView.js"></script>
     <script src="./view/dinnerOverviewView.js"></script>
     <script src="./view/sideNavView.js"></script>
-    <script src="./view/sideNavController.js"></script>
+    <!-- <script src="./view/sideNavController.js"></script> -->
     <script src="./view/selectDishView.js"></script>
-    <script src="./view/selectDishController.js"></script>    
+    <!-- <script src="./view/selectDishController.js"></script> -->   
     <script src="./view/prepareDishView.js"></script>  
     <script src="./view/topBarView.js"></script>  
 </body>

@@ -1,7 +1,8 @@
 var SelectDishController = function(view, model) {
 	   
 	view.courseType.on('change', function () {
-    		view.update();
+    		model.getSelectedDish; 
+            view.update();
     });
 
     view.container.click(function (e) {
