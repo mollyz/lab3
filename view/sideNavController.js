@@ -1,9 +1,5 @@
 var SideNavController = function (view, model) {
 	
-	  view.numberOfGuests.on('change', function () {
-      model.setNumberOfGuests($(this).val());
-    });
-	
 	view.plusButton.click(function(){
 		model.setNumberOfGuests(model.getNumberOfGuests() + 1);
 	});

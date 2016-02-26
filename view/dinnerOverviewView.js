@@ -22,7 +22,7 @@ var DinnerOverviewView = function (container, model) {
 
         var total = 0;
         for (var j = 0; j < menu.length; j++) {
-            total += model.getPriceForDishmenu[j].id);
+            total += model.getPriceForDish(menu[j].id);
         }
 
         row = "<div class=col-xs-1><h3>Total</h3>";

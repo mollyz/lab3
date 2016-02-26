@@ -85,6 +85,7 @@ var DinnerModel= function() {
         }
         menu.push(newDish);
         this.notifyObservers();
+    }
 
 	//Removes dish from menu
 	this.removeDishFromMenu = function(id) {
@@ -95,7 +96,6 @@ var DinnerModel= function() {
         }
         this.notifyObservers();
 		}
-	}
 
 	//function that returns all dishes of specific type (i.e. "starter", "main dish" or "dessert")
 	//you can use the filter argument to filter out the dish by name or ingredient (use for search)

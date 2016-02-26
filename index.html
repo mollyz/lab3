@@ -43,7 +43,7 @@
                     <div class="col-sm-3">People</div>
                     <div class="col-sm-9">
                  <button id="minusGuest" class="btn"><span class="glyphicon glyphicon-minus"></span></button>
-                 <span id="numberOfGuests"></span>
+                 <span id="numberOfGuests">0</span>
                 <button id="plusGuest" class="btn"><span class="glyphicon glyphicon-plus"></span></button>
 
                     </div>
@@ -51,10 +51,10 @@
                   </div>
                   <br>
                     <table class="table" id="myMenu" style="width:100%">
-                            <tr>
-                                <th>Dish Name</th>
-                                <th>Cost</th>
-                            </tr>
+                      <tr>
+                            <th>Dish Name</th>
+                            <th>Cost</th>
+                      </tr>
                     </table>
                   </hr>
                     <p id="total">SEK <span id="totalPrice"></span></p>
@@ -96,36 +96,36 @@
 
 
 <!--page 2.2 detial view-->
-        <div class="col-sm-9" id="detailView">
-            <div class="row">
-                <div class="col-sm-6" id="basicInfo">
-                   <button id="backToSelectButton" onclick="backtoselect();">Back to Select Dish</button>
-                    <h1>Preparation</h1>
-                    <p id="instructions"></p>
-                </div>
-                <div class="col-sm-6" id="ingredientlist">
-                    <div><h3>INGREDIENTS FOR <span id="oneDishNumberOfGuest"></span> PEOPLE</h3></div>
-                    <hr>
-                    <div id="ingredientTable"style="overflow: auto">
-                      <table style="width:95%; text-align: center">
-                        <div id="oneDishIngredientsList">
-                        </div>      
-                      </table>
-                    </div>
-                    <hr>
-                    <div class="row" style="width:100%">
-                      <div class="col-sm-7">
-                          <button id="confirmDishButton" onclick="confirmdish();">Confirm Dish</button>
-                      </div>
-                      <div style="text-align: right;"class="col-sm-3">SEK
-                      </div>
-                      <div style="text-align: right;border:1px solid black;"class="col-sm-2">
-                        <p id="oneDishTotalPrice"></p>
-                      </div>
-                    </div>
-                </div>
+<div class="col-sm-9" id="detailView">
+    <div class="row">
+        <div class="col-sm-6" id="basicInfo">
+           <button id="backToSelectButton" onclick="backtoselect();">Back to Select Dish</button>
+            <h1>Preparation</h1>
+            <p id="instructions"></p>
+        </div>
+        <div class="col-sm-6" id="ingredientlist">
+            <div><h3>INGREDIENTS FOR <span id="oneDishNumberOfGuest"></span> PEOPLE</h3></div>
+            <hr>
+            <div id="ingredientTable"style="overflow: auto">
+              <table style="width:95%; text-align: center">
+                <div id="oneDishIngredientsList">
+                </div>      
+              </table>
+            </div>
+            <hr>
+            <div class="row" style="width:100%">
+              <div class="col-sm-7">
+                  <button id="confirmDishButton" onclick="confirmdish();">Confirm Dish</button>
+              </div>
+              <div style="text-align: right;"class="col-sm-3">SEK
+              </div>
+              <div style="text-align: right;border:1px solid black;"class="col-sm-2">
+                <p id="oneDishTotalPrice"></p>
+              </div>
             </div>
         </div>
+    </div>
+</div>
 
 
 

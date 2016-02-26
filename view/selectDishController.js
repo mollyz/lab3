@@ -4,14 +4,12 @@ var SelectDishController = function(view, model) {
     		view.update();
     });
 
-    view.container.on({
-        "click": function (e) {
+    view.container.click(function (e) {
             if ($(e.target).hasClass('dishImage')) {
             	$("#searchArea").hide();
   				$("#selectDishView").hide();
 				$("#detailView").show();
             }
-        }
     });
 
 };

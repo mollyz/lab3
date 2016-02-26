@@ -1,6 +1,6 @@
 var DetailController = function (view, model) {
 
-    view.confirmDinnerButton.click(function () {
+    view.confirmDinnerButton.click(function() {
         var id = $(this).attr("value");
         model.addDishToMenu(id);
         $("#detailView").hide();
